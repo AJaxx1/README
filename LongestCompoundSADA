@@ -1,0 +1,8 @@
+#longest compound
+string = "aardwolf, aardvark, broncho, classes"
+#split strings
+str_list = string.split()
+#sorting list by word length
+list_s = sorted(str_list, key=len)
+#printing the longest compound
+print(list_s[-1])
